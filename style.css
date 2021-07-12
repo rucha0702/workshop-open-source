@@ -1,61 +1,82 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    width:100%;
-    height:100%;
-    background:linear-gradient(to right,red,blue,green,yellow);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lato', sans-serif;
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, red, blue, green, yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 1.4rem;
 }
-.container{
-   height:800px;
-   width:1300px;
-   margin:20px;
-   background: white;
+.container {
+  height: 800px;
+  width: 1300px;
+  margin: 20px;
+  background: white;
 }
-.small{
-    width:50px;
-    border-radius: 50%;
+.small {
+  width: 50px;
+  border-radius: 50%;
 }
-.logo-area{
-    display:flex;
-    margin:10px;
-    align-items: center;
+.logo-area {
+  display: flex;
+  margin: 10px;
+  align-items: center;
 }
-.logo-area img{
-   margin-right:10px;
+.logo-area img {
+  margin-right: 10px;
 }
-.logo-area span{
-    font-weight: 900;
-    font-size: 1.3rem;
-    color:rgb(53, 52, 52);
+.logo-area span {
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: rgb(53, 52, 52);
 }
-.logo-area p{
-    font-size: 14px;
-    color:rgb(85, 83, 83);
-    margin-top: 6px;
+.logo-area p {
+  font-size: 14px;
+  color: rgb(85, 83, 83);
 }
-.main-section{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.main-section>p{
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin-bottom:30px;
+.main-section > p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
-.main-section >p span{
-    color:green;
-    font-weight: 900;
+.main-section > p span {
+  color: green;
+  font-weight: 900;
 }
-.main-section:nth-child(2){
-    font-weight:1000;
-   
+.main-section:nth-child(2) {
+  font-weight: 1000;
+}
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 300px;
+  margin: 100px;
+}
+.speaker div {
+  color: blue;
+  font-weight: 1000;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.about > p {
+  font-size: 1.4rem;
+  color: red;
+  margin: 10px;
+  margin-left: 0;
+}
+.about ul li {
+  margin: 10px 0;
 }
