@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   width: 100%;
   height: 100%;
@@ -79,4 +80,10 @@ body {
 }
 .about ul li {
   margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    grid-template-rows: 1fr 1fr;
+  }
 }

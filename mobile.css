@@ -1,0 +1,10 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+  margin: 30px 10px;
+}
+.main-section > p {
+  text-align: center;
+  line-height: 1.6rem;
+}
