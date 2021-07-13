@@ -81,9 +81,3 @@ body {
 .about ul li {
   margin: 10px 0;
 }
-
-@media (max-width: 768px) {
-  .about-section {
-    grid-template-rows: 1fr 1fr;
-  }
-}
