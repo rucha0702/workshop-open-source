@@ -7,7 +7,7 @@
 body {
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, red, blue, green, yellow);
+  background: linear-gradient(to right, #DB4437, #4285F4, #0F9D58, #F4B400);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,6 +29,9 @@ body {
   display: flex;
   margin: 10px;
   align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 .logo-area img {
   margin-right: 10px;
@@ -66,11 +69,16 @@ body {
   grid-gap: 300px;
   margin: 100px;
 }
-.speaker div {
+.speaker a {
   color: blue;
   font-weight: 1000;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-top: 10px;
+  text-decoration: none;
+}
+.speaker p {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
 }
 .about > p {
   font-size: 1.4rem;
