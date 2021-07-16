@@ -72,7 +72,7 @@ body {
 .speaker a {
   color: blue;
   font-weight: 1000;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-top: 10px;
   text-decoration: none;
 }
@@ -88,10 +88,4 @@ body {
 }
 .about ul li {
   margin: 10px 0;
-}
-
-@media (max-width: 768px) {
-  .about-section {
-    grid-template-rows: 1fr 1fr;
-  }
 }
